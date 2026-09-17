@@ -1,0 +1,29 @@
+# ==========================================================
+# KATA — Server: berkas yang TIDAK ikut di-commit
+# ==========================================================
+
+# Dependency
+node_modules/
+npm-debug.log*
+
+# Kredensial — jangan pernah di-commit
+.env
+.env.*
+!.env.example
+
+# Hasil kompilasi TypeScript
+*.tsbuildinfo
+dist/
+
+# Editor
+.idea/
+.vscode/
+*.iml
+
+# Sistem operasi
+.DS_Store
+Thumbs.db
+
+# Berkas sementara
+*.log
+*.tmp
